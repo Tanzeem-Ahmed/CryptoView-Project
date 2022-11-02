@@ -1,0 +1,50 @@
+.container {
+    margin-top: 5rem;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.flex-item {
+    width: 50%;
+}
+
+.main-img {
+    width: 75%;
+}
+
+.item {
+    margin-left: 10rem;
+}
+
+.flex-horizontal {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    animation: slide 20s linear infinite alternate;
+    position: relative;
+}
+
+.card-img {
+    height: 2rem;
+    padding: 0.5rem 1rem;
+}
+
+.flex-card {
+    min-width: 25rem;
+}
+
+.top-coin {
+    overflow-x: hidden;
+}
+
+@keyframes slide {
+    0% {
+        right: 0%;
+    }
+    100% {
+        right: 100%;
+    }
+}

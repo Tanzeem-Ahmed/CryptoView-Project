@@ -1,0 +1,24 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.main-img {
+    width: calc(25% - 10rem);
+    padding: 5rem;
+}
+
+.main-content {
+    width: calc(75% - 5rem);
+    padding-top: 5rem;
+    padding-right: 5rem;
+}
+
+.spacing {
+    justify-content: space-around;
+}
+
+#coin-desc {
+    text-align: justify;
+}
