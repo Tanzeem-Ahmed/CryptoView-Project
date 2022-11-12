@@ -48,3 +48,26 @@
         right: 100%;
     }
 }
+
+@media screen and (max-width : 768px){
+    .flex-container {
+        flex-direction: column;
+        animation: none !important;
+    }
+    .flex-item {
+        padding: 2rem;
+        width: 100%;
+    }
+    .flex-item .item {
+        margin-left: 2rem;
+        justify-content: flex-start;
+    }
+
+}
+
+@media screen and (max-width : 550px) {
+    .top-coin {
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+}
